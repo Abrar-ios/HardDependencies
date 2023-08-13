@@ -18,6 +18,7 @@
 		1678EC132A896E0800947315 /* HardDependenciesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678EC122A896E0800947315 /* HardDependenciesUITestsLaunchTests.swift */; };
 		1678EC202A896F7A00947315 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678EC1F2A896F7A00947315 /* Analytics.swift */; };
 		1678EC222A8970C500947315 /* MySingletonAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678EC212A8970C500947315 /* MySingletonAnalytics.swift */; };
+		1678EC242A89727D00947315 /* InstancePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678EC232A89727D00947315 /* InstancePropertyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1678EC122A896E0800947315 /* HardDependenciesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardDependenciesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1678EC1F2A896F7A00947315 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		1678EC212A8970C500947315 /* MySingletonAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonAnalytics.swift; sourceTree = "<group>"; };
+		1678EC232A89727D00947315 /* InstancePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstancePropertyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1678EBF32A896E0600947315 /* ViewController.swift */,
 				1678EC1F2A896F7A00947315 /* Analytics.swift */,
 				1678EC212A8970C500947315 /* MySingletonAnalytics.swift */,
+				1678EC232A89727D00947315 /* InstancePropertyViewController.swift */,
 				1678EBF52A896E0600947315 /* Main.storyboard */,
 				1678EBF82A896E0700947315 /* Assets.xcassets */,
 				1678EBFA2A896E0700947315 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				1678EBF02A896E0600947315 /* AppDelegate.swift in Sources */,
 				1678EC202A896F7A00947315 /* Analytics.swift in Sources */,
 				1678EC222A8970C500947315 /* MySingletonAnalytics.swift in Sources */,
+				1678EC242A89727D00947315 /* InstancePropertyViewController.swift in Sources */,
 				1678EBF22A896E0600947315 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
