@@ -10,8 +10,11 @@ import XCTest
 
 final class HardDependenciesTests: XCTestCase {
 
-    func test_zero(){
-        XCTFail("There no test implemented in HardDependenciesTests suit")
+    func test_loading(){
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sut :InstancePropertyViewController  = sb.instantiateViewController(identifier: String(describing: InstancePropertyViewController.self))
+        sut.loadViewIfNeeded()
+        XCTAssertNotNil(sut.label)
+        
     }
-
 }
