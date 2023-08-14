@@ -9,7 +9,19 @@ import XCTest
 @testable import HardDependencies
 
 final class MySingletonViewControllerTests: XCTestCase {
-    func test_zero(){
-        XCTFail("There is no test implemented in MySingletonViewControllerTests class yet")
+    override func setUp() {
+        super.setUp()
+        MySingletonAnalytics.stubbedInstance = MySingletonAnalytics()
+    }
+    
+    override func tearDown() {
+        MySingletonAnalytics.stubbedInstance = nil
+        super.tearDown()
+    }
+    
+    func test_viewDidAppear(){
+        let sut = MySingletonViewController()
+        sut.loadViewIfNeeded()
+        sut.viewDidAppear(false)
     }
 }

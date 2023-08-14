@@ -28,6 +28,7 @@
 		1678EC332A8A389A00947315 /* MySingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678EC312A8A389A00947315 /* MySingletonViewController.swift */; };
 		1678EC342A8A389A00947315 /* MySingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1678EC322A8A389A00947315 /* MySingletonViewController.xib */; };
 		1678EC362A8A570500947315 /* MySingletonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678EC352A8A570500947315 /* MySingletonViewControllerTests.swift */; };
+		1678EC3A2A8A634400947315 /* OverrideViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678EC392A8A634400947315 /* OverrideViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		1678EC312A8A389A00947315 /* MySingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewController.swift; sourceTree = "<group>"; };
 		1678EC322A8A389A00947315 /* MySingletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySingletonViewController.xib; sourceTree = "<group>"; };
 		1678EC352A8A570500947315 /* MySingletonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewControllerTests.swift; sourceTree = "<group>"; };
+		1678EC392A8A634400947315 /* OverrideViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				1678EC062A896E0800947315 /* HardDependenciesTests.swift */,
 				1678EC352A8A570500947315 /* MySingletonViewControllerTests.swift */,
+				1678EC392A8A634400947315 /* OverrideViewControllerTests.swift */,
 			);
 			path = HardDependenciesTests;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			files = (
 				1678EC362A8A570500947315 /* MySingletonViewControllerTests.swift in Sources */,
 				1678EC072A896E0800947315 /* HardDependenciesTests.swift in Sources */,
+				1678EC3A2A8A634400947315 /* OverrideViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
