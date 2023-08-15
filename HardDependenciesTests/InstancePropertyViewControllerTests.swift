@@ -9,7 +9,11 @@ import XCTest
 @testable import HardDependencies
 
 final class InstancePropertyViewControllerTests:XCTestCase {
-    func test_zero(){
-        XCTFail("There is no tests implemented in InstancePropertyViewControllerTests yet")
+    func test_viewDiAppear(){
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sut : InstancePropertyViewController =  sb.instantiateViewController(identifier: String(describing: InstancePropertyViewController.self))
+        sut.analytics = Analytics()
+        sut.loadViewIfNeeded()
+        sut.viewDidAppear(false)
     }
 }
