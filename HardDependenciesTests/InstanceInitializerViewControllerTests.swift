@@ -9,7 +9,9 @@ import XCTest
 @testable import HardDependencies
 
 final class InstanceInitializerViewControllerTests: XCTestCase {
-    func test_zero(){
-        XCTFail("There is no test implemented in InstanceInitializerViewControllerTests yet")
+    func test_viewDidAppear(){
+        let sut = InstanceInitializerViewController.init(analytics: Analytics())
+        sut.loadViewIfNeeded()
+        sut.viewDidAppear(false)
     }
 }
