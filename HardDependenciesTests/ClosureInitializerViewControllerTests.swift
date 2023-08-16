@@ -9,7 +9,9 @@ import XCTest
 @testable import HardDependencies
 
 final class ClosureInitializerViewControllerTests: XCTestCase {
-    func test_zero(){
-        XCTFail("There is no test implemented in ClosureInitializerViewControllerTests class yet")
+    func test_viewDidAppear(){
+        let sut = ClosureInitializerViewController{Analytics()}
+        sut.loadViewIfNeeded()
+        sut.viewDidAppear(false)
     }
 }
