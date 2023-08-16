@@ -9,10 +9,26 @@ import UIKit
 
 class ClosureInitializerViewController: UIViewController {
 
+    private let makeAnalyics: () -> Analytics
+    
+    init(makeAnalyics: @escaping () -> Analytics = {Analytics.shared}) {
+        self.makeAnalyics = makeAnalyics
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        makeAnalyics().track(event: "viewDidAppear...\(type(of: self))")
     }
 
 
