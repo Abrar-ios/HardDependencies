@@ -34,6 +34,7 @@
 		16A002FF2A8C001C0092A77A /* InstancePropertyViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A002FE2A8C001C0092A77A /* InstancePropertyViewControllerTests.swift */; };
 		16A003012A8D4BB50092A77A /* ClosureInitializerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A003002A8D4BB50092A77A /* ClosureInitializerViewControllerTests.swift */; };
 		16A003032A8D4D190092A77A /* ClosurePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A003022A8D4D190092A77A /* ClosurePropertyViewController.swift */; };
+		16A003052A8D4E540092A77A /* ClosurePropertyViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A003042A8D4E540092A77A /* ClosurePropertyViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		16A002FE2A8C001C0092A77A /* InstancePropertyViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstancePropertyViewControllerTests.swift; sourceTree = "<group>"; };
 		16A003002A8D4BB50092A77A /* ClosureInitializerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureInitializerViewControllerTests.swift; sourceTree = "<group>"; };
 		16A003022A8D4D190092A77A /* ClosurePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosurePropertyViewController.swift; sourceTree = "<group>"; };
+		16A003042A8D4E540092A77A /* ClosurePropertyViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosurePropertyViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				16A002FC2A8BF7E80092A77A /* InstanceInitializerViewControllerTests.swift */,
 				16A002FE2A8C001C0092A77A /* InstancePropertyViewControllerTests.swift */,
 				16A003002A8D4BB50092A77A /* ClosureInitializerViewControllerTests.swift */,
+				16A003042A8D4E540092A77A /* ClosurePropertyViewControllerTests.swift */,
 			);
 			path = HardDependenciesTests;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				1678EC442A8A6A1700947315 /* TestableOverrideViewController.swift in Sources */,
 				16A002FF2A8C001C0092A77A /* InstancePropertyViewControllerTests.swift in Sources */,
 				1678EC3E2A8A661500947315 /* OverrideViewControllerTests.swift in Sources */,
+				16A003052A8D4E540092A77A /* ClosurePropertyViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
