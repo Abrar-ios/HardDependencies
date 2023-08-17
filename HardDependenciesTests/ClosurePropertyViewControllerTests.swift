@@ -9,7 +9,11 @@ import XCTest
 @testable import HardDependencies
 
 final class ClosurePropertyViewControllerTests: XCTestCase {
-    func test_zero(){
-        XCTFail("There is no tests implemented in ClosurePropertyViewControllerTests suit yet")
+    func test_viewDidAppear(){
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sut: ClosurePropertyViewController = sb.instantiateViewController(identifier: String(describing: ClosurePropertyViewController.self))
+        sut.makeAnalytics = {Analytics()}
+        sut.loadViewIfNeeded()
+        sut.viewDidAppear(false)
     }
 }
